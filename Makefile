@@ -17,3 +17,12 @@ rm:
 	@echo -e "$(YELLOW)[+] Removing virtual environment...$(NC)"
 	@rm -rf myenv
 	@echo -e "$(GREEN)[✔] Virtual environment removed!$(NC)"
+
+remote:
+	@git remote set-url origin git@github.com:hatim-alouani/AI-learning.git
+
+push:
+	@git add .
+	@git commit -m "update"
+	@git push origin main
+	
