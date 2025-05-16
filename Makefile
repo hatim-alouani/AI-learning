@@ -11,7 +11,6 @@ all:
 	fi
 	@echo -e "$(YELLOW)[+] Installing dependencies...$(NC)"
 	@myenv/bin/pip install -r requirements.txt
-	# @myenv/bin/python -m spacy download en_core_web_sm
 	@echo -e "$(GREEN)[✔] Dependencies installed!$(NC)"
 
 rm:

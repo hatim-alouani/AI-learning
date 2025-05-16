@@ -1,0 +1,5 @@
+When to Use What?
+    Random Forest: When you need a fast, stable, general-purpose model with minimal tuning.
+    AdaBoost: When you want to boost the performance of weak models or deal with simpler data.
+    Gradient Boosting / XGBoost: When accuracy is critical and you're okay with longer training and more tuning.
+    SVM: When you have small or medium-sized datasets, especially with clear class boundaries.
