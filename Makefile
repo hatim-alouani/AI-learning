@@ -21,8 +21,7 @@ rm:
 remote:
 	@git remote set-url origin git@github.com:hatim-alouani/AI-learning.git
 
-push:
+push: remote
 	@git add .
 	@git commit -m "update"
 	@git push origin main
-	
