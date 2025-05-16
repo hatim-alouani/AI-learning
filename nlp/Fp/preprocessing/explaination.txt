@@ -1,0 +1,6 @@
+I)- NLTK is like a toolbox — you can build anything, but you have to wire it all together.
+    1)- punkt : punkt is a pretrained tokenizer model in NLTK used for splitting text into sentences and words.
+    2)- wordnet : WordNet is a powerful lexical database that organizes English words into sets of synonyms called synsets, linked by semantic relationships like hypernyms (more general), hyponyms (more specific), and meronyms (part-of).
+    3)- stopwords : Stopwords are the most common words in a language that usually carry little or no semantic meaning on their own. Examples in English include
+II)- spaCy is like a factory — it does a lot for you automatically and fast, but gives less flexibility.
+    1)- en_core_web_sm : is spaCy’s small English language model, used to process and analyze English text.
