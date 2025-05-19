@@ -1,7 +1,7 @@
 import numpy as np 
 import tensorflow as tf
 
-def convolution_output_size(imput_size, kernel_size, stride, padding):
+def convolution_output_size(input_size, kernel_size, stride, padding):
     return (input_size + 2 * padding - kernel_size) // stride + 1
 
 input_size = 32
