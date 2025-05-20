@@ -3,8 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 def preprocess_images(images):
-    images = tf.convert_to_tensor(images)    
-    images = tf.expand_dims(images, -1)
+    images = tf.convert_to_tensor(images[..., np.newaxis])
     images = tf.image.resize(images, [224, 224])
     images = tf.image.grayscale_to_rgb(images)
     return images
