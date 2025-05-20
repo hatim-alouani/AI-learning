@@ -33,10 +33,10 @@ print(history_adam.history['accuracy'])
 print("Training with SGD optimizer:")
 print(history_sgd.history['accuracy'])
 
-#training with random weight initialization
-model_random = create_model()
-model_random.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-history_random = model_random.fit(x_train, y_train, epochs=5, batch_size=32, validation_data=(x_val, y_val), verbose=0)
-print("Training with random optimizer:")
-print(history_random.history['accuracy'])
+# #training with random weight initialization
+# model_random = create_model()
+# model_random.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+# history_random = model_random.fit(x_train, y_train, epochs=5, batch_size=32, validation_data=(x_val, y_val), verbose=0)
+# print("Training with random optimizer:")
+# print(history_random.history['accuracy'])
 
